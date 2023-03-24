@@ -30,3 +30,40 @@ I can be responsible and quickly study.
 * **Git/GitHub**
 
 -----
+
+### Code Examples:
+
+```
+   module.exports = function towelSort(matrix) {
+      if (!matrix) {
+         return [];
+      }
+      return matrix.reduce(function (result, current, index) {
+         if (index % 2) {
+            return result.concat(current.sort((a, b) => b - a));
+         } else {
+            return result.concat(current.sort((a, b) => a - b));
+         }
+      }, []);
+   }
+```
+
+```
+    new Swiper('.everyday__courusel', {
+      pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+      },
+      slidesPerView: 1,
+      autohight: true,
+      centeredSlides: true,
+      slideToClickedSlide: true,
+      mousewheel: true,
+      keyboard: {
+          enabled: true,
+      },
+      loop: true,
+      speed: 950,
+    });
+```
+-----
