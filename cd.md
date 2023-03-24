@@ -68,6 +68,14 @@ I can be responsible and quickly study.
 ```
 -----
 
+### Work Experience:
+
+I have little experience in Frontend development. 
+Example of my work:
+**Project "Plants"** https://rolling-scopes-school.github.io/viktoriagalonskaya-JSFEPRESCHOOL2022Q4/plants/
+
+-----
+
 ### Education:
 
 - **Francisk Skorina Gomel State University/Economist**
