@@ -67,3 +67,23 @@ I can be responsible and quickly study.
     });
 ```
 -----
+
+### Education:
+
+- **Francisk Skorina Gomel State University/Economist**
+
+- **TechMeSkills/FrontEnd Developer**
+
+- **JS/FE Pre-School 2022Q4**
+
+-----
+
+### Languages:
+
+- **Russian** - Native
+
+- **English** - Pre-Intermediate
+
+- **Polish** - Basic
+
+------
