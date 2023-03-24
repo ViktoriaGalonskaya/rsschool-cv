@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CV</title>
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300&family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__container container">
+         <nav class="header__menu">
+            <ul class="header__list">
+               <li class="header__item">
+                  <a href="#contacts" class="header__link">Contacts</a>
+               </li>
+               <li class="header__item">
+                  <a href="#abou" class="header__link">About me</a>
+               </li>
+               <li class="header__item">
+                  <a href="#skills" class="header__link">Skills</a>
+               </li>
+               <li class="header__item">
+                  <a href="#code" class="header__link">Code Example</a>
+               </li>
+               <li class="header__item">
+                  <a href="#experience" class="header__link">Work Experience</a>
+               </li>
+               <li class="header__item">
+                  <a href="#education" class="header__link">Education</a>
+               </li>
+               <li class="header__item">
+                  <a href="#languages" class="header__link">Languages</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main class="main">
+      <div class="main__container container">
+         <section class="section section-profile">
+            <div class="section-profile__photo">
+               <img src="assets/img/photo.jpeg" alt="Viktoria" class="section-profile__img">
+            </div>
+            <div class="section-profile__info">
+               <h1 class="section-profile__name">Viktoria Galonskaya</h1>
+               <h3 class="section-profile__profession">Junior Front-End Developer</h3>
+            </div>
+         </section>
+         <section class="section section-contacts" id="contacts">
+            <h2 class="section-contacts__title title">Contacts:</h2>
+            <ul class="section-contacts__list">
+               <li class="section-contacts__item">
+                  <a href="https://t.me/lvictoriagalo" class="section-contacts__link" target="_blank">Telegram</a>
+               </li>
+               <li class="section-contacts__item">
+                  <a href="mailto:victoriagalonskaya1997@gmail.com" class="section-contacts__link"
+                     target="_blank">Gmail</a>
+               </li>
+               <li class="section-contacts__item">
+                  <a href="https://github.com/ViktoriaGalonskaya" class="section-contacts__link"
+                     target="_blank">GitHub</a>
+               </li>
+            </ul>
+         </section>
+         <section class="section section-about" id="about">
+            <h2 class="section-about__title title">About me:</h2>
+            <p class="section-about__description">
+               I want to study the Front End Development with RSSCHOOL! I can be
+               responsible and quickly study. I like
+               traveling, yoga, and cats.</p>
+         </section>
+         <section class="section section-skills" id="skills">
+            <h2 class="section-skills__title title">Skills:</h2>
+            <ul class="section-skills__list">
+               <li class="section-skills__item">HTML</li>
+               <li class="section-skills__item">CSS (SCSS/SASS)</li>
+               <li class="section-skills__item">JS</li>
+               <li class="section-skills__item">Figma</li>
+               <li class="section-skills__item">Zeplin</li>
+               <li class="section-skills__item">Prepros</li>
+               <li class="section-skills__item">Photoshop</li>
+               <li class="section-skills__item">Git/GitHub</li>
+            </ul>
+         </section>
+         <section class="section section-code" id="code">
+            <h2 class="section-code__title title">Code Example:</h2>
+            <pre class="section-code__wrap">
+               <code class="section-code__example">
+new Swiper('.everyday__courusel', {
+      pagination: {
+         el: '.swiper-pagination',
+         clickable: true,
+      },
+      slidesPerView: 1,
+      autohight: true,
+      centeredSlides: true,
+      slideToClickedSlide: true,
+      mousewheel: true,
+      keyboard: {
+          enabled: true,
+      },
+         loop: true,
+         speed: 950,
+      });
+               </code>
+            </pre>
+         </section>
+         <section class="section section-experience" id="experience">
+            <h2 class="section-experience__title title">Work Experience:</h2>
+            <div class="section-experience__description">
+               I have little experience in Frontend development.
+               Example of my work: <a
+                  href="https://rolling-scopes-school.github.io/viktoriagalonskaya-JSFEPRESCHOOL2022Q4/plants/"
+                  target="_blank" class="section-experience__link">Project “Plants”</a>.
+            </div>
+         </section>
+         <section class="section section-education" id="education">
+            <h2 class="section-education__title title">Education:</h2>
+            <ul class="section-education__list">
+               <li class="section-education__item">
+                  <a href="http://www.gsu.by/en" target="_blank" class="section-education__link">Francisk Skorina Gomel
+                     State
+                     University</a>
+                  / Economist
+               </li>
+               <li class="section-education__item">
+                  <a href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-minsk"
+                     target="_blank" class="section-education__link">TechMeSkills</a>
+                  / FrontEnd Developer
+               </li>
+               <li class="section-education__item">
+                  <a href="https://rs.school/js/" target="_blank" class="section-education__link">JS/FE Pre-School
+                     2022Q4</a>
+                  / FrontEnd
+               </li>
+            </ul>
+         </section>
+         <section class="section section-languages" id="languages">
+            <h2 class="section-languages__title title">Languages:</h2>
+            <ul class="section-languages__list">
+               <li class="section-languages__item">Russian - Native
+               </li>
+               <li class="section-languages__item">English - Pre-Intermediate</li>
+               <li class="section-languages__item">Polish - Basic</li>
+            </ul>
+         </section>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer__container container">
+         <div class="footer__copyright copyright">
+            <div class="copyright__author">
+               Viktoria Galonskaya © 2023
+            </div>
+            <div class="copyright__links">
+               <a href="https://github.com/ViktoriaGalonskaya" class="copyright__link" target="_blank">
+                  <img src="assets/svg/github.svg" alt="github" class="copyright__icon">
+               </a>
+               <a href="https://www.linkedin.com/in/victoria-takarskaya-620555197/" class="copyright__link"
+                  target="_blank">
+                  <img src="assets/svg/linkedin.svg" alt="linkedin" class="copyright__icon">
+               </a>
+            </div>
+         </div>
+         <div class="footer__school rss">
+            <a href="https://rs.school/js/" class="rss__link" target="_blank">
+               <img src="assets/svg/rs_school.svg" alt="rss" class="rss__logo">
+            </a>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
