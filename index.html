@@ -91,22 +91,6 @@
             <h2 class="section-code__title title">Code Example:</h2>
             <pre class="section-code__wrap">
                <code class="section-code__example">
-module.exports = function towelSort(matrix) {
-   if (!matrix) {
-      return [];
-   }
-   return matrix.reduce(function (result, current, index) {
-      if (index % 2) {
-         return result.concat(current.sort((a, b) => b - a));
-      } else {
-         return result.concat(current.sort((a, b) => a - b));
-      }
-   }, []);
-}
-               </code>
-            </pre>
-            <pre class="section-code__wrap">
-               <code class="section-code__example">
 new Swiper('.everyday__courusel', {
       pagination: {
          el: '.swiper-pagination',
